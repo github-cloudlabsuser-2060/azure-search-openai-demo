@@ -1,31 +1,37 @@
-# ChatGPT + Enterprise data with Azure OpenAI and AI Search
+# ChatGPT + Enterprise data with # ChatGPT + Enterprise Data with Azure OpenAI and AI Search
 
-> [!IMPORTANT]
-> As of November 15, 2023, Azure Cognitive Search has been renamed to Azure AI Search.
+> **IMPORTANT:** As of November 15, 2023, Azure Cognitive Search has been renamed to Azure AI Search.
 
-### Announcing [**JavaScript**](https://aka.ms/azai/js/code), [**.NET**](https://aka.ms/azai/net/code), and [**Java**](https://aka.ms/azai/java/code) samples based on this one ([**Python**](https://aka.ms/azai/py/code)). Learn more at  https://aka.ms/azai.
+We are excited to announce the availability of sample code in **JavaScript**, **.NET**, **Java**, and **Python** for integrating ChatGPT with enterprise data using Azure OpenAI and AI Search. Explore the samples and learn more at [https://aka.ms/azai](https://aka.ms/azai).
 
 ## Table of Contents
 
-- [Features](#features)
-- [Azure account requirements](#azure-account-requirements)
-- [Azure deployment](#azure-deployment)
-  - [Cost estimation](#cost-estimation)
-  - [Project setup](#project-setup)
-    - [GitHub Codespaces](#github-codespaces)
-    - [VS Code Dev Containers](#vs-code-dev-containers)
-    - [Local environment](#local-environment)
-  - [Deploying](#deploying)
-  - [Deploying again](#deploying-again)
-- [Sharing environments](#sharing-environments)
-- [Using the app](#using-the-app)
-- [Running locally](#running-locally)
-- [Monitoring with Application Insights](#monitoring-with-application-insights)
-- [Customizing the UI and data](#customizing-the-ui-and-data)
-- [Productionizing](#productionizing)
-- [Clean up](#clean-up)
-- [Troubleshooting](#troubleshooting)
-- [Resources](#resources)
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Azure Account Requirements](#azure-account-requirements)
+4. [Azure Deployment](#azure-deployment)
+   - [Cost Estimation](#cost-estimation)
+   - [Project Setup](#project-setup)
+     - [GitHub Codespaces](#github-codespaces)
+     - [VS Code Dev Containers](#vs-code-dev-containers)
+     - [Local Environment Setup](#local-environment-setup)
+   - [Deployment Process](#deployment-process)
+   - [Redeployment Guidelines](#redeployment-guidelines)
+5. [Usage](#usage)
+   - [Sharing Environments](#sharing-environments)
+   - [Using the App](#using-the-app)
+   - [Running Locally](#running-locally)
+6. [Advanced Topics](#advanced-topics)
+   - [Monitoring with Application Insights](#monitoring-with-application-insights)
+   - [Customizing the UI and Data](#customizing-the-ui-and-data)
+   - [Productionizing](#productionizing)
+7. [Maintenance](#maintenance)
+   - [Clean Up](#clean-up)
+8. [Support](#support)
+   - [Troubleshooting](#troubleshooting)
+   - [Resources](#resources)
 
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=599293758&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
 [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/azure-search-openai-demo)
